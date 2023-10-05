@@ -32,23 +32,26 @@ public class Principal {
         seuCarro.modelo = "X6";
         seuCarro.proprietario = voce;
 
-        System.out.println("Meu carro");
-        System.out.println("---------");
-        System.out.printf("Ano de fabricação: %d%n", meuCarro.anoFabricacao);
-        System.out.printf("Cor: %S%n", meuCarro.cor);
-        System.out.printf("Fabricante: %S%n", meuCarro.fabricante);
-        System.out.printf("Modelo: %s%n", meuCarro.modelo);
-        System.out.printf("Proprietário: %s%n", meuCarro.proprietario.nome);
+        meuCarro.calcularValorRevenda();
+        seuCarro.calcularValorRevenda();
 
-        System.out.println();
-
-        System.out.println("Seu carro");
-        System.out.println("---------");
-        System.out.printf("Ano de fabricação: %d%n", seuCarro.anoFabricacao);
-        System.out.printf("Cor: %s%n", seuCarro.cor);
-        System.out.printf("Fabricante: %s%n", seuCarro.fabricante);
-        System.out.printf("Modelo: %s%n", seuCarro.modelo);
-        System.out.printf("Proprietário: %s%n", seuCarro.proprietario.nome);
+//        System.out.println("Meu carro");
+//        System.out.println("---------");
+//        System.out.printf("Ano de fabricação: %d%n", meuCarro.anoFabricacao);
+//        System.out.printf("Cor: %S%n", meuCarro.cor);
+//        System.out.printf("Fabricante: %S%n", meuCarro.fabricante);
+//        System.out.printf("Modelo: %s%n", meuCarro.modelo);
+//        System.out.printf("Proprietário: %s%n", meuCarro.proprietario.nome);
+//
+//        System.out.println();
+//
+//        System.out.println("Seu carro");
+//        System.out.println("---------");
+//        System.out.printf("Ano de fabricação: %d%n", seuCarro.anoFabricacao);
+//        System.out.printf("Cor: %s%n", seuCarro.cor);
+//        System.out.printf("Fabricante: %s%n", seuCarro.fabricante);
+//        System.out.printf("Modelo: %s%n", seuCarro.modelo);
+//        System.out.printf("Proprietário: %s%n", seuCarro.proprietario.nome);
 
 //        System.out.println();
 //
